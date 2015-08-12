@@ -1,0 +1,37 @@
+#
+# Samsung variant configurations.
+#
+# @author kumhyun.cho@samsung.com
+# @since 2014.02.20
+
+config TRACE_MARK
+	bool
+	default n
+
+config TRACE_MARK_KMEM_STAT
+	bool
+	default n
+
+config TRACE_MARK_MM_RSS
+	bool
+	default n
+
+config TRACE_MARK_PAGE_LOCKED_KILLABLE
+	bool
+	default n
+
+config TRACE_MARK_PAGE_LOCK
+	bool
+	default n
+
+config TRACE_MARK_PAGE_WRITE_BACK
+	bool
+	default n
+
+config TRACE_MARK_SYSCALL
+	bool
+	default n
+
+config TRACE_MARK_NET_SKB_DUMP
+	bool
+	default n
